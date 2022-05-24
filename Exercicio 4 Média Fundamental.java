@@ -24,7 +24,7 @@ public class MediaDoFundamental {
 		med=(n1+n2+n3)/3; // linha de corte ( media ).
 		
 		if (med>=8) 	// condicao do RA - maior ou igua a 8 aprovado.
-		System.out.printf("O aluno com RA"+ra+"foi aprovado.\nParabens");
+		System.out.printf("O aluno com RA "+ra+" foi aprovado.\nParabens");
 		
 		if (med<8 && med>=6 ) // menor que 8 ou igual maior que 6 recuperacao; 
 		System.out.printf("Infelizmente o aluno com RA:"+ra+" esta de recuperacao");
